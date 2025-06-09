@@ -1,11 +1,8 @@
-Django>=3.2,<4.0
+Django>=5.0,<6.0
 django-compressor==3.1
 django-js-reverse==0.9.1
-django-select2==7.11.1
-django-tables2==2.6.0
-django-widget-tweaks==1.4.12
-Pillow>=9.0.0
-psycopg2-binary>=2.9.0  # Required for Render's PostgreSQL
-whitenoise>=6.0.0       # Handles static files
-gunicorn>=20.0.0        # Production server
-actionlog>=1.0.0        # Fixes your missing module
+actionlog>=1.0.0
+gunicorn>=20.0.0
+psycopg2-binary>=2.9.0
+whitenoise>=6.0.0
+django-split-settings>=1.0.0
